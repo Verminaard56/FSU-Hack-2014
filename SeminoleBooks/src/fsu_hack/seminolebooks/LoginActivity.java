@@ -73,14 +73,16 @@ public class LoginActivity extends Activity implements OnClickListener {
 				
 			});
 			
-			setContentView(R.layout.activity_main);
+			Intent intent = new Intent(this, MainActivity.class);
+			startActivity(intent);
 			
 		}
 	}
 	
 	// 'Sign up with Email' button is clicked.
 	public void e_click(View v){
-		setContentView(R.layout.activity_register);
+		Intent intent = new Intent(this, RegisterActivity.class);
+		startActivity(intent);
 	}
 
 	@Override

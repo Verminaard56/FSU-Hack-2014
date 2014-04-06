@@ -3,13 +3,6 @@ package fsu_hack.seminolebooks;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
-import android.view.View;
-import android.widget.ImageView;
-
-import com.facebook.android.DialogError;
-import com.facebook.android.Facebook;
-import com.facebook.android.Facebook.DialogListener;
-import com.facebook.android.FacebookError;
 
 public class MainActivity extends Activity{
 	

@@ -24,4 +24,28 @@
         android:background="@drawable/e_login_button"
      	android:onClick="e_click" />
     
+    <LinearLayout
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+        android:layout_gravity="center"
+    	android:orientation="horizontal"
+        android:layout_marginTop="15sp" >
+    
+	    <TextView
+	        android:id="@+id/sign_in_label"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Already a member? "
+	        android:layout_gravity="center"
+	        android:textColor="#FFFFFF" />   
+	        
+	    <TextView
+	        android:id="@+id/sign_in"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/sign_in"
+	        android:layout_gravity="center"
+	        android:textColor="#FFFFFF" />  
+    </LinearLayout>
+    
 </LinearLayout>

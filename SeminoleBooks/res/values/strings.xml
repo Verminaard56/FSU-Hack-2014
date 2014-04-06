@@ -10,5 +10,6 @@
     <string name="title_activity_buy_fragment">BuyFragment</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_sell_fragment">SellFragment</string>
+    <string name="sign_in"><u>Sign In</u></string>
 
 </resources>
