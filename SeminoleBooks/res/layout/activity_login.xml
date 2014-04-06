@@ -6,23 +6,22 @@
     android:orientation="vertical"
     android:background="@drawable/background">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="230sp"
-        android:layout_gravity="center" />
-    
-    <ImageView
-        android:id="@+id/login"
+    <Button
+        android:id="@+id/fb_login"
         android:layout_width="400sp"
-        android:layout_height="wrap_content"
+        android:layout_height="55sp"
         android:layout_gravity="center"
-        android:src="@drawable/fb_login_button" />
+        android:layout_marginTop="230sp"
+        android:background="@drawable/fb_login_button"
+    	android:onClick="fb_click" />
 
-    <ImageView
-        android:id="@+id/login"
+    <Button
+        android:id="@+id/e_login"
         android:layout_width="400sp"
-        android:layout_height="wrap_content"
+        android:layout_height="55sp"
         android:layout_gravity="center"
-        android:src="@drawable/e_login_button" />
+        android:layout_marginTop="30sp"
+        android:background="@drawable/e_login_button"
+     	android:onClick="e_click" />
     
 </LinearLayout>
