@@ -1,6 +1,5 @@
 # cache for current jar dependency. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1396733546719 627582 db0f122c99ef9f90dbab3fada6d191f2880cbb8e C:\Users\Phillip\Documents\GitHub Repositories\FSU-Hack-2014\SeminoleBooks\libs\android-support-v4.jar
-1396733547439 627582 db0f122c99ef9f90dbab3fada6d191f2880cbb8e C:\Users\Phillip\Documents\GitHub Repositories\FSU-Hack-2014\appcompat_v7\libs\android-support-v4.jar
-1396734390333 621451 5896b0a4e377ac4242eb2bc785220c1c4fc052f4 C:\Users\Phillip\Documents\Eclipse Workspace\facebook-android-sdk-3.8.0\facebook\libs\android-support-v4.jar
+1396749799045 627582 db0f122c99ef9f90dbab3fada6d191f2880cbb8e C:\Users\Phillip\Documents\GitHub Repositories\FSU-Hack-2014\appcompat_v7\libs\android-support-v4.jar
+1396749798199 627582 db0f122c99ef9f90dbab3fada6d191f2880cbb8e C:\Users\Phillip\Documents\Eclipse Workspace\SDKs\Android - Facebook\facebook-android-sdk-3.8.0\facebook\libs\android-support-v4.jar

@@ -3,17 +3,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal">
-    
-    <EditText android:id="@+id/edit_message"
-        android:layout_weight="1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:hint="@string/edit_message" />
-    
-    <Button
+    android:orientation="vertical">
+
+    <ImageView
         android:layout_width="wrap_content"
+        android:layout_height="230sp"
+        android:layout_gravity="center" />
+    
+    <ImageView
+        android:id="@+id/login"
+        android:layout_width="380sp"
         android:layout_height="wrap_content"
-        android:text="@string/button_send" />
+        android:layout_gravity="center"
+        android:src="@drawable/fb_login_button" />
+
+    <ImageView
+        android:id="@+id/login"
+        android:layout_width="380sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/e_login_button" />
     
 </LinearLayout>
